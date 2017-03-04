@@ -7,9 +7,9 @@ import Endzone from './Endzone';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Endzone text="Paddle" />
-        <Endzone text="Battle" />
+      <div className="background">
+        <Endzone text="Paddle" side="left" />
+        <Endzone text="Battle" side="right" />
       </div>
     )
   }

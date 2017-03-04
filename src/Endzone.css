@@ -1,4 +1,14 @@
-div {
+.endZone {
+    position: fixed;
+    top: 0;
     width: 15vw;
-    background-color: hsla(120, 100%, 50%, 0.3);  
+    height: 100vh;
+    background-color: hsla(120, 100%, 100%, .2);
+    z-index: 2;
+}
+.vertText {
+    width: 0;
+    word-wrap: break-word;
+    margin: auto;
+    padding-top: 35vh;
 }
